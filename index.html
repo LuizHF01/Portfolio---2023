@@ -17,8 +17,7 @@
 <header>
     <div class="dropdown">
       <div class="logo"><i class="bi bi-file-earmark-code"></i>Meu <span>Portfolio</span></div>
-      <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="bi bi-list"></i>
+      <button class="btn btn-danger bi-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       </button>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="#">Inicio</a></li>
@@ -43,12 +42,42 @@
       <p>Meu nome é Luiz e eu sou fanático por tecnologia. Decidi trilhar o caminho da programação com foco na experiência do usuário mais conhecido como Front-end. Possuo experiência em Desenvolvimento Web nas tecnologias HTML, CSS e Java Script.</p>
     </div>
     <div class="container">
-      <h2>Desenvolvedor Front-End</h2>
-      <p>O profissional desenvolvedor frontEnd é o responsável por colocar em prática, através de códigos, o design de um site ou interface. Enquanto o web design projeta o visual de um site, o FrontEnd implementa esse design através de códigos, como HTML, CSS, Java Script e algumas bibliotecas e Frameworks</p>
-      <h2>Desenvolvedor Back-End</h2>
-      <p>o profissional desenvolvedor back-end trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. Em uma aplicação web, este desenvolvedor, quando focado, não toca na parte visual da aplicação.</p>
-      <h2>Banco de Dados</h2>
-      <p>O DBA (database administrator), sigla em inglês para Administrador de Banco de Dados, é um profissional da área de tecnologia responsável pela criação, instalação, monitoramento, reparos e análise de estruturas de um banco de dados.</p>
+      <p class="primeiro">
+        <button class="btn btn-primary bi-front" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample">
+          Front-End
+        </button>
+      </p>
+      <div style="min-height: auto;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+          <div class="card card-body" style="width: 300px;">
+            O profissional desenvolvedor frontEnd é o responsável por colocar em prática, através de códigos, o design de um site ou interface. Enquanto o web design projeta o visual de um site, o FrontEnd implementa esse design através de códigos, como HTML, CSS, Java Script e algumas bibliotecas e Frameworks
+          </div>
+        </div>
+      </div>
+      <p class="segundo">
+        <button class="btn btn-primary bi-back" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2" aria-expanded="false" aria-controls="collapseWidthExample">
+          Back-End
+        </button>
+      </p>
+      <div style="min-height: auto;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+          <div class="card card-body" style="width: 300px;">
+            o profissional desenvolvedor back-end trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. Em uma aplicação web, este desenvolvedor, quando focado, não toca na parte visual da aplicação.
+          </div>
+        </div>
+      </div>
+      <p class="terceiro">
+        <button class="btn btn-primary bi-pc" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample">
+          Database
+        </button>
+      </p>
+      <div style="min-height: auto;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+          <div class="card card-body" style="width: 300px;">
+            O  DBA (database administrator), sigla em inglês para Administrador de Banco de Dados, é um profissional da área de tecnologia responsável pela criação, instalação, monitoramento, reparos e análise de estruturas de um banco de dados.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="projects">
