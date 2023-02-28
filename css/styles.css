@@ -143,13 +143,17 @@ header::before{
   border-bottom: 15px solid var(--vermelho);
   display: flex;
   text-align: center;
-  margin: 10px auto;
+  margin: 0px auto;
   justify-content: center;
 }
 
 .technology i{
   padding: 10px;
   font-size: 2.5em;
+}
+
+.technology h1{
+  padding: 10px;
 }
 
 .btn-group{
@@ -159,5 +163,59 @@ header::before{
 .btn i{
   font-size: 1em;
 }
+
+.certificates{
+  background-color: var(--preto-neutro);
+  min-height: 80vh;
+  color: var(--branco);
+}
+
+.certificates h1{
+  padding: 10px;
+}
+
+.slide{
+  display: flex;
+}
+
+.btn-group1{
+  display: flex;
+  text-align: center;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.contact{
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  min-height: 50vh;
+  text-align: center;
+  padding: 30px;
+}
+
+.contact h1{
+  font-size: 2em;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.social-media i {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: var(--preto-neutro);
+  color: var(--branco);
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+
 
 
