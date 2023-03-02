@@ -9,6 +9,7 @@
   --azul-escuro: #011F78;
   --vermelho: #dc3545;
   --amarelo: #fbff00;
+  --verde: #27e215;
 }
 
 * {
@@ -73,7 +74,7 @@ header::before{
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 90%;
-  font-size: 2.2em;
+  font-size: 2.1em;
   height: auto;
 }
 
@@ -141,10 +142,12 @@ header::before{
   background-color: var(--azul-escuro);
   color: var(--branco);
   border-bottom: 15px solid var(--vermelho);
-  display: flex;
   text-align: center;
-  margin: 0px auto;
-  justify-content: center;
+}
+
+.technology{
+  display: inline-block;
+  text-align: center;
 }
 
 .technology i{
@@ -156,33 +159,46 @@ header::before{
   padding: 10px;
 }
 
-.btn-group{
-  padding: 15px;
+.formation{
+  margin: 15px auto;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--vermelho);
+  color: var(--branco);
 }
 
-.btn i{
-  font-size: 1em;
+.formation a{
+    text-decoration: none;
+    color: var(--branco);
 }
 
 .certificates{
   background-color: var(--preto-neutro);
   min-height: 80vh;
   color: var(--branco);
+  text-align: center;
 }
 
 .certificates h1{
   padding: 10px;
+  text-align: left;
 }
 
 .slide{
   display: flex;
 }
 
-.btn-group1{
-  display: flex;
-  text-align: center;
-  margin: 20px auto;
-  justify-content: center;
+.about-certificate{
+  margin: 15px auto;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: var(--vermelho);
+  color: var(--branco);
+}
+
+.about-certificate a{
+  text-decoration: none;
+  color: var(--branco);
 }
 
 .contact{
@@ -203,6 +219,12 @@ header::before{
   gap: 1em;
 }
 
+.social-media a{
+  text-decoration: none;
+  color: var(--branco);
+  padding-bottom: 20px;
+}
+
 .social-media i {
   font-size: 1.5em;
   margin-bottom: 10px;
@@ -215,7 +237,3 @@ footer{
   font-size: 0.8em;
   padding: 5px;
 }
-
-
-
-
