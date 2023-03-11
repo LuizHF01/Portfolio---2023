@@ -24,7 +24,7 @@ body {
 
 /* INICIO HEADER */
 header{
-  background-image: url(../Images/banner.jpg);
+  background-image: url(../Images/elite.png);
   height: 100vh;
   background-size: inherit;
   background-position: center; 
@@ -91,7 +91,7 @@ header::before{
 /* INICIO MAIN */
 .about{
   background-image: linear-gradient(to bottom, var(--azul),var(--vermelho));
-  min-height: 100vh;
+  min-height: 90vh;
   border-bottom: 15px solid var(--amarelo);
 }
 
@@ -110,7 +110,7 @@ header::before{
 .projects{
   background-color: var(--preto-neutro);
   padding: 10px;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .projects h1{
@@ -139,7 +139,7 @@ header::before{
 }
 
 .technologies{
-  background-color: var(--azul-escuro);
+  background-image: url(../Images/banner.jpg);
   color: var(--branco);
   border-bottom: 15px solid var(--vermelho);
   text-align: center;
@@ -174,7 +174,7 @@ header::before{
 
 .certificates{
   background-color: var(--preto-neutro);
-  min-height: 80vh;
+  min-height: 60vh;
   color: var(--branco);
   text-align: center;
 }
@@ -204,7 +204,7 @@ header::before{
 .contact{
   background-color: var(--azul-escuro);
   color: var(--branco);
-  min-height: 50vh;
+  min-height: 30vh;
   text-align: center;
   padding: 30px;
 }

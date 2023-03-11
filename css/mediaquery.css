@@ -1,0 +1,52 @@
+@media (min-width: 375px) {
+    .intro h1{
+      font-size: 2.4em;
+    }
+
+    .about{
+      min-height: 75vh;
+    }
+
+    .about-me p{
+      font-size: 1.4em;
+    }
+
+    .projects{
+      min-height: 90vh;
+    }
+
+    .technology{
+      width: 60%;
+    }
+
+    .certificates{
+      min-height: 65vh;
+    }
+
+    .contact{
+      min-height: 35vh;
+    }
+}
+
+@media (min-width: 425px) {
+    .intro h1{
+      font-size: 2.8em;
+
+    }
+
+    .about-me p{
+      font-size: 1.8em;
+    }
+
+    .certificates{
+      min-height: 70vh;
+    }
+
+    .contact{
+      min-height: 40vh;
+    }
+}
+
+@media (min-width: 768px){
+        
+}
